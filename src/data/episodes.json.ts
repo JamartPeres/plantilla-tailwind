@@ -7,51 +7,51 @@ export interface Template {
   description: string;
 };
 const one: Template = {
-  title: "Unearthing History",
-  image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1061&q=80",
+  title: "Estudiante UADY",
+  image: "src/assets/uady.jpg",
   episode: "Episode 1",
-  description: "Join us in exploring the depths of inner adventures and the intricacies of the human mind and emotions.",
-  date: " February 24, 2022",
+  description: "Actualmente curso la carrera de Ingeniería en software en la Universidad Autónoma de Yucatán.",
+  date: "",
   audio: ""
 };
 const two: Template = {
-  title: "Mysteries Explored",
-  image: "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+  title: "Lenguaje C",
+  image: "src/assets/lenguajeC.png",
   episode: "Episode 2",
-  description: "Unveil captivating conversations with insightful guests who share their unique perspectives and life stories.",
-  date: " February 24, 2022",
+  description: "He tenido oportunidad de desarrollar varios programas en lenguaje C durante mi carrera y he adquirido un buen dominio del mismo.",
+  date: "",
   audio: "https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3"
 };
 const three: Template = {
-  title: "Creative Sparks",
-  image: "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+  title: "Lenguaje Ensamblador",
+  image: "src/assets/ASM.png",
   episode: "Episode 3",
-  description: "Join us as we dig into the past to uncover forgotten tales and historical gems that shape our present.",
-  date: " February 24, 2022",
+  description: "Pasé la materia de arquitectura de computadoras con Otilio.",
+  date: "",
   audio: "https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3"
 };
 const four: Template = {
-  title: "Journey of Discovery",
-  image: "https://images.unsplash.com/photo-1509305717900-84f40e786d82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1068&q=80",
+  title: "Lenguaje Java",
+  image: "src/assets/lenguajeJava.jpg",
   episode: "Episode 4",
-  description: "In this episode, we delve into enigmatic phenomena and puzzling questions, exploring the mysteries that intrigue us.",
-  date: " February 24, 2022",
+  description: "He desarrollado múltiples proyectos en lenguaje Java, incluidos algunos proyectos con microservicios",
+  date: "",
   audio: "https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3"
 };
 const five: Template = {
-  title: "Conversations Unveiled",
-  image: "https://images.unsplash.com/photo-1569913486515-b74bf7751574?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=989&q=80",
+  title: "JS & TS",
+  image: "src/assets/jsts.png",
   episode: "Episode 5",
-  description: "Discover the sparks of creativity that fuel artistic minds as we talk to innovative thinkers from various fields.",
-  date: " February 24, 2022",
+  description: "Conocimiento en los lenguajes de programación JavaScript y TypeScript",
+  date: " ",
   audio: "https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3"
 };
 const six: Template = {
-  title: "Adventures Within",
-  image: "https://images.unsplash.com/photo-1601455763557-db1bea8a9a5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2112&q=80",
+  title: "Angular",
+  image: "src/assets/Angular.png",
   episode: "Episode ",
-  description: "Embark on a journey of self-discovery and exploration as we discuss personal growth and transformative experiences.",
-  date: " February 24, 2022",
+  description: "Tengo conocimiento suficiente para el desarrollo de aplicaciones con el uso de este framework",
+  date: "",
   audio: "https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3"
 };
 export const bytitle = {
